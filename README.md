@@ -1,4 +1,5 @@
 # CustomNavigationBarAlphaProject
 CustomNavigationBarAlphaProject
-*自定义导航栏透明渐变\n
+*自定义导航栏透明渐变
+
 使用的是自定义导航栏，设置系统导航栏为透明的方法网上有很多但是在iOS 11中透明的导航栏默认为白色还不知道怎么解决，所以先用自定义的代替了。透明渐变的功能在scrollViewDidScroll 这个方法中实现，根据滚动偏移量计算百分比数值并将其作为导航栏透明度。
